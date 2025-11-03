@@ -85,5 +85,8 @@ const getTotalScore = (users) => {
 console.log(getTotalScore(sampleUsers))
 // Problem 10
 const sortUsersByScoreDescending = (users) => {
-
+  return users.sort((a, b) => {
+    return b.score - a.score
+  }, 0)
 };
+console.log(sortUsersByScoreDescending(sampleUsers))
