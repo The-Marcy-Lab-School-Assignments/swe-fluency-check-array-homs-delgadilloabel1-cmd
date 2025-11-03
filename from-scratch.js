@@ -78,8 +78,8 @@ const getActiveUsersUnder30 = (users) => {
 console.log(getActiveUsersUnder30(sampleUsers))
 // Problem 9
 const getTotalScore = (users) => {
-  return users.reduce((currentScore, currentVal) => {
-    return currentScore + currentVal
+  return users.reduce((currentScore, user) => {
+    return currentScore + user.score
   }, 0)
 };
 console.log(getTotalScore(sampleUsers))
