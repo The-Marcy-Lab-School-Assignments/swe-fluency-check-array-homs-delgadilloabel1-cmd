@@ -21,9 +21,12 @@ const getStringLengths = (strings) => {
 console.log(getStringLengths(sampleWords))
 // Problem 3
 const sortWordsZtoA = (words) => {
+  return words
+    .sort()
+    .reverse()
 
 };
-
+console.log(sortWordsZtoA(sampleWords))
 /* -------------------------------------------- */
 /* --------------NUMBER PROBLEMS--------------- */
 /* -------------------------------------------- */
